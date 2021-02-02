@@ -1,4 +1,4 @@
-    /* common styles */
+    /* styles commun */
     * {
         padding: 0;
         margin: 0;
@@ -15,5 +15,65 @@
         font-family: sans-serif;
     }
     
-    /* common styles end */
+    /* fin style commun */
     
+    /* calculatrice */
+    .calculator {
+        width: 300px;
+        padding-bottom: 15px;
+        border-radius: 7px;
+        background-color: rgb(145, 53, 53);
+        box-shadow: 5px 8px 8px -2px rgba(187, 91, 91, 0.61);
+    }
+    /* calculatrice style fin */
+    
+    /* ecran */
+    .ecran {
+        width: 100%;
+        height: 40px;
+        border: none;
+        box-sizing: border-box;
+        padding: 10px;
+        font-size: 2rem;
+        background-color: #76ad85;
+        color: #000;
+        text-align: right;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+    }
+    
+    /* ecran style fin */
+    
+    /* row */
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+    /* row style fin */
+    
+    /* boutton */
+    button {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: none;
+        outline: none;
+        font-size: 1.5rem;
+        background-color: #222;
+        color: #fff;
+        margin: 10px;
+    }
+    
+    button:hover {
+        cursor: pointer;
+    }
+    
+    /* boutton style fin */
+    
+    /* operator */
+    .operator {
+        background-color: #00ff44;
+        color: #000;
+    }
+    
+    /* operator style fin */
